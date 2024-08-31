@@ -1,0 +1,82 @@
+{
+  "type": "ItemTurret",
+"reload": 60,
+"range": 100,
+"shootCone": 20,
+"size": 1,
+"maxAmmo": 25,
+"outlineColor": "1a1a1a",
+"outlineRadius": "3",
+"health": 250,
+"shootShake": 3.5,
+       "shoot": {
+      "type": "ShootSpread",
+      "spread": 45,
+      "shots": 1
+      },
+"shootSound": "shotgun",
+"ammoPerShot": 2,
+  "recoilAmount": 4.5,
+"ammoTypes": {
+      "blood-stone": {
+          "status": "melting",	
+          "statusDuration": "350",
+          "damage": 12.5,
+          "width": 15,
+          "pierce": "true",
+          "type": "ShrapnelBulletType",
+          "lifetime": 20,
+          "length": 100,
+          "serrations": 5,
+          "fromColor": "c20000",
+          "toColor": "fc0d0d",
+          "shootEffect": "explosion",
+      "hitEffect": {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 8,
+          "lifetime": 10,
+          "length": 4,
+          "cone": -360,
+          "lenFrom": 5,
+          "lenTo": 0,
+          "colorFrom": "fc3535",
+          "colorTo": "fc3535"
+        },
+        "buildingDamageMultiplier": 0.50
+      },
+        "palladium": {
+          "status": "electrified",	
+          "statusDuration": "360",
+          "damage": 75,
+          "width": 20,
+          "pierce": "true",
+          "type": "ShrapnelBulletType",
+          "lifetime": 20,
+          "length": 100,
+          "serrations": 8,
+          "fromColor": "ffb459",
+          "toColor": "ff9f29",
+          "shootEffect": "explosion",
+      "hitEffect": {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 8,
+          "lifetime": 10,
+          "length": 4,
+          "cone": -360,
+          "lenFrom": 5,
+          "lenTo": 0,
+          "colorFrom": "ff9f29",
+          "colorTo": "ff9f29"
+        },
+        "buildingDamageMultiplier": 0.75
+       }
+      },
+"requirements": [
+      "dark-slate/20",
+      "blood-stone/25"
+],
+"category": "turret",
+"research": ""
+}

@@ -1,0 +1,66 @@
+{
+    "type": "ConsumeGenerator",
+    "health": 750,
+    "size": 3,
+    "powerProduction": 18,
+    "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+          {
+         "type": "DrawRegion",
+           "suffix": "-bottom"
+            },
+            {
+            "type": "DrawRegion",
+            "suffix": "-top"
+            },
+            {
+            "type": "DrawDefault"
+            },
+            {
+             "type": "DrawGlowRegion",
+             "suffix": "-glow",
+            "color": "ff5252",
+            "alpha": "1.45"
+            },
+            {
+            "type": "DrawLiquidRegion",
+            "suffix": "-liquid",
+            "drawLiquid": "argon",
+            "alpha": 0.75
+            }
+        ]
+        },
+    "hasItems": true,
+    "hasLiquids": true,
+    "itemCapacity": 25,
+    "itemDuration": 460,
+    "randomlyExplode": false,
+    "generateEffect": "fireballsmoke",
+    "consumes": {
+      "items": {
+        "items": [
+        "protected-oxide/2"
+        ]
+      },
+      "liquids": {
+        "liquids": [
+            "argon/0.2"
+        ]
+      }
+    },
+    "minItemEfficiency": 0.1,
+        "requirements": [
+            "dark-slate/150",
+            "blood-stone/100",
+            "protected-oxide/80",
+            "palladium/65"
+    ],
+    "category": "power",
+    "research": "",
+    "loopSound": "hum",
+    "loopSoundVolume": 1.95,
+    "ambientSound": "machine",
+    "ambientSoundVolume": 0.25
+    }
+    

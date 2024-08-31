@@ -1,0 +1,10 @@
+{
+    "type": "OreBlock",
+    "localizedName": "BETAORE",
+    "description": "BETA",
+    "itemDrop": "radiation-metal",
+    "hasColor": true,
+    "mapColor": "6aa84f",
+    "variants": 3
+  }
+  

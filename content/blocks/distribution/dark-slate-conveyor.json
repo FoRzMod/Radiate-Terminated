@@ -1,0 +1,16 @@
+{
+    "type": "Conveyor",
+    "name": "Dark-slate conveyor",
+    "description": "basic conveyor",
+    "details": "A basic radian conveyor. That's all!",
+    "health": 50,
+    "requirements": [
+     "dark-slate/1",
+     "titanium/1"
+    ],
+    "category": "distribution",
+    "speed": 0.07,
+    "displayedSpeed": 30,
+    "research": "blood-core-1tr"
+  }
+  

@@ -1,0 +1,63 @@
+{
+  "type": "flying",
+  "lowAltitude": false,
+  "health": 600,
+  "flying": true,
+  "engineSize": 0,
+  "speed": 1.8,
+  "fallSpeed": 0.6,
+  "armor": 1.5,
+  "itemCapacity": 5,
+  "faceTarget": true,
+  "hitSize": 15,
+  "drawCell": false,
+  "drag": 0.2,
+  "accel": 0.34,
+  "outlineColor": "2a2a2a",
+  "weapons": [
+    {
+      "name": "simpler-gun",
+      "mirror": false,
+      "top": true,
+      "inaccuracy": 10,
+      "shootCone": 18,
+      "x": 0,
+      "y": 0,
+      "reload": 5,
+      "shootY": 0,
+      "bullet": {
+  "type": "LaserBulletType",
+  "colors":["bf41f0", "e08fff", "f6deff"],
+  "length": 115,
+  "width": 10,
+  "damage": 100,
+  "hitEffect": "hitMeltHeal",
+  "lightColor": "84F491FF",
+  "shootEffect": "none",
+  "smokeEffect": "none",
+  "sideAngle": 15,
+  "sideWidth": 0,
+  "sideLength": 0
+  },
+      "parts": [
+        {
+          "type": "RegionPart",
+          "suffix": "-glow",
+          "color": "351c75",
+          "blending": "additive"
+        },
+        {
+          "type": "RegionPart",
+          "suffix": "-const",
+          "mirror": true,
+          "under": false,
+          "moveX": -20,
+          "moveY": 0,
+          "progress": "warmup",
+          "moveRot": 0
+        } 
+      ]     
+      }
+    ]
+  }
+  

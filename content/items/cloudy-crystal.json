@@ -1,0 +1,10 @@
+{
+    "name": "Cloudy Crystal",
+    "cost": 5,
+    "color": "20a167", 
+    "hardness": 5,
+    "flammability": 0,
+    "explosiveness": 0,
+    "charge": 0.1,
+    "research": ""
+}

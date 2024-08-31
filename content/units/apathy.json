@@ -1,0 +1,69 @@
+{
+    "type": "flying",
+    "lowAltitude": false,
+    "accel": 0.3,
+    "speed": 4.25, 
+    "drag": 0.02,
+    "buildSpeed": 2.3,
+    "buildRange": 300,
+    "flying": true,
+    "engineSize": 4,
+    "mineTier": 3,
+    "mineSpeed": 3.5,
+    "mineWalls": true,
+    "canHeal": true,
+    "engines": [
+        {
+            "x": 8,
+            "y": -13,
+            "radius": 2.5
+        },
+        {
+            "x": -8,
+            "y": -13,
+            "radius": 2.5
+        }
+    ],
+    "health": 990,
+    "hitSize": 28,
+    "fallSpeed": 0.6,
+    "armor": 5,
+    "healColor": "e587ff",
+    "itemCapacity": 45,
+    "outlineColor": "141414",
+    "engineOffset": 22,
+    "engineColor": "d22eff",
+    "faceTarget": true,
+    "weapons": [
+        {
+            "name": "health-gun",
+            "x": 15,
+            "y": -1,
+            "mirror": true,
+            "layerOffset": -0.0001,
+            "top": false,
+            "rotate": true,
+            "rotationLimit": 45,
+            "rotateSpeed": 5,
+            "reload": 65,
+            "recoil": 2,
+            "shake": 0.25,
+            "shootSound": "laser-charge",
+            "bullet": {
+  "type": "LaserBulletType",
+  "colors":["38124d", "8e7cc3", "d9d2e9"],
+  "length": 95,
+  "width": 15,
+  "damage": 25,
+  "hitEffect": "hitMeltHeal",
+  "lightColor": "b4a7d6",
+  "healPercent": 5,
+  "healAmount": 15,
+  "smokeEffect": "none",
+  "sideAngle": 15,
+  "sideWidth": 0,
+  "sideLength": 0
+      }
+        }
+    ]
+}

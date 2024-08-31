@@ -1,0 +1,49 @@
+{
+    "type": "GenericCrafter",
+       "researchCostMultiplier": 0.6,
+    "health": 200,
+    "size": 2,
+    "hasItems": false,
+    "craftTime": 48,
+    "craftEffect": "none",
+    "drawer": {
+    "type": "DrawMulti",
+          "drawers": [
+          {
+         "type": "DrawRegion",
+         "suffix": "-bottom"
+          },
+          {
+            "type":"DrawRegion",
+            "suffix": "-top"
+          },
+          {
+          "type": "DrawLiquidTile",
+          "drawLiquid": "water",
+          "suffix": "-liquid"
+          },
+          {	
+          "type": "DrawDefault"
+          }
+      ]
+      },
+    "hasPower": true,
+    "hasLiquids": true,
+    "updateEffect": "none",
+    "consumes": {
+      "power": 0.95,
+      "liquids": [
+        "radiation-wather/0.35"
+      ]
+    },
+    "requirements": [
+      "carbon-stick/15",
+      "blood-stone/20",
+      "dark-slate/30",
+      "protected-oxide/10"
+    ],
+    "category": "production",
+    "research": "",
+    "outputLiquid": "water/0.35"
+  }
+  

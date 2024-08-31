@@ -1,0 +1,18 @@
+{
+    "name": "Carbon Stick",
+    "description": "Ore mined from the depths of an radiated planet.",
+    "details": "BETATEST",
+    "cost": 4,
+    "color": "262626", 
+    "hardness": 1,
+    "flammability": 0,
+    "explosiveness": 5,
+    "research": {
+      "requirements": [
+        {
+          "item": "copper",
+          "amount": 2
+        }
+      ]
+    }
+  }

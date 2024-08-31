@@ -1,0 +1,13 @@
+{
+    "type": "Conduit",
+    "health": 80,
+    "leaks": true,
+    "liquidPressure": 2,
+    "liquidCapacity": 35,
+        "requirements": [
+        "protected-oxide/2",
+        "dark-slate/1"
+        ],
+    "research": "",
+    "category": "liquid"
+}

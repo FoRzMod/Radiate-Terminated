@@ -1,0 +1,10 @@
+{
+    "name": "Rock formation",
+    "cost": 1,
+    "color": "262626", 
+    "hardness": 2,
+    "flammability": 0,
+    "explosiveness": 0,
+    "charge": 0,
+    "research": ""
+}

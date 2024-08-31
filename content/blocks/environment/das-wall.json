@@ -1,0 +1,10 @@
+{
+    "name": "Dark Stone Wall",
+    "type": "StaticWall",
+    "attributes": {
+        "das-stone": 1
+    },
+    "itemDrop": "ds-stone",
+    "variants": 2
+}
+    

@@ -1,0 +1,11 @@
+{    
+    "type": "Wall",
+    "health": 2290,
+    "size": 2,
+    "absorbLasers": true,
+    "requirements": [
+     "palladium/30"
+    ],
+    "category": "defense",
+    "research": ""
+}

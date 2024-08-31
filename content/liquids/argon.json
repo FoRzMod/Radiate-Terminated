@@ -1,0 +1,14 @@
+{
+    "name": "Argon",
+    "description": "The really explosive gas.",
+    "gas": true,
+    "gasColor": "f07878",
+    "heatCapacity": 0,
+    "explosiveness": 2.5,
+    "temperature": 2,
+    "color": "cf0000",
+    "viscosity": 0.1,
+    "flammability": 2,
+    "research": ""
+  }
+  

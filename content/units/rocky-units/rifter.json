@@ -1,0 +1,14 @@
+{
+  "type": "crawl",
+  "name": "Rifter",
+  "health": 300,
+  "speed": 2.6,
+  "segments": 2,
+  "drawBody": false,
+  "drawCell": false,
+  "groundLayer": 69.69,
+  "outlineColor": "0e0e0e",
+  "drag": 0.65,
+  "rotateSpeed": 4,
+  "hitSize": 8
+}

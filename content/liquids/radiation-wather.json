@@ -1,0 +1,19 @@
+{
+    "name": "Radioctive Water",
+    "description": "BETALIQUID",
+    "heatCapacity": 1,
+    "explosiveness": 0.05,
+    "temperature": 0.5,
+    "color": "6aa84f",
+    "viscosity": 0.05,
+    "flammability": 3,
+    "research": {
+      "requirements": [
+        {
+          "item": "copper",
+          "amount": 1
+        }
+      ]
+    }
+  }
+  

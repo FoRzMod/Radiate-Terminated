@@ -1,0 +1,13 @@
+{
+    "type": "Floor",
+    "speedMultiplier": 0.65,
+    "variants": 10,
+    "statusDuration": 60,
+    "isLiquid": "true",
+    "albedo": 0.5,
+    "drownTime": 85,
+    "status": "wet",
+    "cacheLayer": "water",
+    "liquidDrop": "radiation-wather"
+}
+    

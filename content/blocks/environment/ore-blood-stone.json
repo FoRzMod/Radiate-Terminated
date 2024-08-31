@@ -1,0 +1,10 @@
+{
+    "type": "OreBlock",
+    "localizedName": "BETAORE",
+    "description": "BETA",
+    "itemDrop": "blood-stone",
+    "hasColor": true,
+    "mapColor": "990000",
+    "variants": 3
+  }
+  

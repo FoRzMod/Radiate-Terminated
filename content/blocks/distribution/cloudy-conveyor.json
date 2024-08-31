@@ -1,0 +1,40 @@
+{
+    "type": "StackConveyor",
+    "loadEffect": {
+    "type": "ParticleEffect",
+    "line": false,
+    "particles": 7,
+    "lifetime": 12,
+    "length": 10,
+    "cone": -360,
+    "sprite": "conv-out-star",
+    "lenFrom": 5,
+    "lenTo": 0,
+    "colorFrom": "51db9d",
+    "colorTo": "307a59"
+    },
+    "unloadEffect": {
+    "type": "ParticleEffect",
+    "line": false,
+    "particles": 7,
+    "lifetime": 12,
+    "sprite": "conv-out-star",
+    "length": 10,
+    "cone": -360,
+    "lenFrom": 5,
+    "lenTo": 0,
+    "colorFrom": "51db9d",
+    "colorTo": "307a59"
+    },
+    "health": 100,
+    "speed": 0.02,
+    "itemCapacity": 12,
+        "requirements": [
+            "dark-slate/2",
+            "cloudy-crystal/4",
+            "nixonium/2"
+        ],
+    "research": "",
+    "category": "distribution"
+    
+    }

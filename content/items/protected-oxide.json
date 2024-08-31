@@ -1,0 +1,10 @@
+{
+    "name": "Protected Oxide",
+    "cost": 2,
+    "color": "ffb0b0", 
+    "hardness": 2,
+    "flammability": 0,
+    "explosiveness": 0.01,
+    "charge": 0,
+    "research": ""
+}

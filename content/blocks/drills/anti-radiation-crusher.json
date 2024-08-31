@@ -1,0 +1,27 @@
+{
+"name": "AR Drill",
+"description": "A simple drill.",
+"type": "Drill",
+"hasLiquids": true,
+"liquidCapacity": 15,
+"size": 2,
+"itemCapacity": 15,
+"tier": 2,
+"drillTime": 230,
+"drawMineItem": false,
+"rotateSpeed": 1.25,
+"liquidBoostIntensity": 1.85,
+"requirements": [
+  "blood-stone/14"
+],
+"consumes": {
+    "liquid": {
+      "liquid": "cryofluid",
+      "amount": 0.08,
+      "optional": true,
+      "booster": true
+    }
+  },
+"category": "production",
+"research": "blood-core-1tr"
+}

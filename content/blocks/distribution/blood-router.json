@@ -1,0 +1,17 @@
+{
+    "name": "Dark-slate Router",
+    "description": "Just fast router",
+    "type": "Router",
+    "dumpTime": 1,
+    "speed": 0.3,
+    "health": 80,
+    "itemCapacity": 15,
+    "size": 1,
+    "requirements": [
+    "dark-slate/2",
+    "titanium/5"
+    ],
+    "category": "distribution",
+    "research": "blood-juncton"
+  }
+  

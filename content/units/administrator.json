@@ -1,0 +1,84 @@
+{
+    "name": "administrator",
+    "outlineColor": "262626",
+    "type": "legs",
+     "speed": 0.45,
+     "faceTarget": false,
+     "health": 980,
+     "hitSize": 12,
+     "armor": 3,
+     "range": 135,
+     "targetAir": true,
+     "targetGround": true,
+     "rotateSpeed": 2.95,
+     "legCount": 8,
+    "legLength": 18,
+    "legGroupSize": 4,
+    "lockLegBase": true,
+    "legContinuousMove": true,
+    "legExtension": -3,
+    "legBaseOffset": 4,
+    "legMaxLength": 1,
+    "legMinLength": 0.45,
+    "legLengthScl": 0.95,
+    "legForwardScl": 0.9,
+    "legMoveSpace": 1.15,
+    "allowLegCount": true,
+     "hovering": true,
+     "parts": [
+        {
+          "type": "FlarePart",
+          "x": 0,
+          "y": 2,
+          "color1": "6aa84f",
+          "color2": "38761d",
+          "spinSpeed": -1.95,
+          "radius": 0.5,
+          "followRotation": true
+        },
+        {
+          "type": "RegionPart",
+          "suffix": "-glow",
+          "blending": "additive",
+          "color": "ffffff",
+          "outline": false,
+          "mirror": false
+        }
+    ],
+        "immunities": [
+        "melting",
+        "burning",
+        "blasted"
+     ],
+     "weapons": [
+        {
+            "name": "vaporflame-gun",
+            "shootCone": 90,
+            "mirror": false,
+            "rotateSpeed": 5.5,
+            "continuous": true,
+            "alwaysContinuous": true,
+            "top": true,
+            "rotate": true,
+            "inaccuracy": 0,
+            "x": 0,
+            "y": -3,
+            "cooldownTime": 45,
+            "shootSound": "torch",
+            "recoil": 0.7,
+    "bullet": {
+        "type": "ContinuousFlameBulletType",
+        "drawFlare": false,
+        "hitColor": "61ab65",
+        "colors": ["477742", "559153", "72c280", "a1e3a4", "ffffff"],
+        "damageInterval": 10,
+        "damage": 10,
+        "length": 120,
+        "width": 2,
+        "pierce": true,
+        "pierceBuilding": true,
+        "pierceCap": 3
+    }
+    }
+    ]
+}

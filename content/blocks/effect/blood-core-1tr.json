@@ -1,0 +1,18 @@
+{
+	"type": "CoreBlock",
+	"health": 3600,
+    "squareSprite": false,
+	"size": 4,
+	"itemCapacity": 4500,
+	"unitCapModifier": 12,
+    "researchCostMultiplier": 0.06,
+    "unitType": "meridian",
+	"requirements": [
+    "titanium/300",
+    "blood-stone/440",
+    "dark-slate/500"
+	],
+  "category": "effect",
+  "alwaysUnlocked": true,
+	"research": "radiate-categ"
+}

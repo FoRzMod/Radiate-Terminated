@@ -1,0 +1,19 @@
+{
+    "name": "Phantom Alloy",
+    "description": "Strange purple alloy...",
+    "details": "BETATEST",
+    "cost": 3,
+    "color": "351c75", 
+    "hardness": 2,
+    "flammability": 0,
+    "charge": 2.5,
+    "explosiveness": 0,
+    "research": {
+      "requirements": [
+        {
+          "item": "copper",
+          "amount": 3
+        }
+      ]
+    }
+  }

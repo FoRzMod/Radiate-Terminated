@@ -1,0 +1,7 @@
+{
+    "type": "OreBlock",
+    "itemDrop": "cloudy-crystal",
+    "hasColor": true,
+    "mapColor": "20a167",
+    "variants": 3
+  }

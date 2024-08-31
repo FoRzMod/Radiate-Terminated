@@ -1,0 +1,61 @@
+{
+    "name": "Phantom alloy conjugator",
+    "type": "GenericCrafter",
+       "researchCostMultiplier": 0.5,
+    "description": "Crosses alloys at high speed and pours phantom liquid to recreate the phantom alloy",
+    "health": 1440,
+    "size": 3,
+    "hasItems": true,
+    "craftTime": 70,
+    "craftEffect": "none",
+    "drawer": {
+    "type": "DrawMulti",
+          "drawers": [
+          {
+          "type": "DrawRegion",
+          "suffix": "-top"
+          },
+          {
+         "type": "DrawRegion",
+         "suffix": "-bottom"
+          },
+          {
+          "type": "DrawLiquidRegion",
+          "drawLiquid": "phantom-liquid",
+          "suffix": "-liquid"
+          },
+          {	
+          "type": "DrawDefault"
+          },
+          {
+            "type": "DrawPlasma",
+            "suffix": "-plasma-",
+            "plasma1": "e6dded",
+            "plasma2": "d9b1fa"
+          }
+      ]
+      },
+    "hasPower": true,
+    "hasLiquids": true,
+    "updateEffect": "none",
+    "consumes": {
+    "power": 3.5,
+      "items": [
+        "dark-slate/2",
+        "palladium/1"
+      ],
+      "liquids": [
+      "phantom-liquid/0.05"
+      ]
+    },
+    "requirements": [
+      "titanium/80",
+      "blood-stone/35",
+      "dark-slate/60",
+      "palladium/15"
+    ],
+    "category": "crafting",
+    "research": "",
+    "outputItem": "phantom-alloy/2"
+}
+  

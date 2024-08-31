@@ -1,0 +1,11 @@
+{
+"type": "Unloader",
+"health": 120,
+"itemCapacity": 2,
+"requirements": [
+    "dark-slate/2",
+    "palladium/1"
+], 
+"category": "effect",
+"research": "blood-item-bridge"
+}  

@@ -1,0 +1,14 @@
+{  
+    "localizedName":"[darkgrey]RADIATE",
+    "description": "RADIATE tech tree",
+    "alwaysUnlocked": true,
+    "buildVisibility": "editorOnly",
+    "type": "LightBlock",
+    "health": 800,
+    "size": 2,
+   "research": {
+  "root": true,
+  "name": "[darkgrey]RADIATE",
+  "requiresUnlock": false
+}
+}

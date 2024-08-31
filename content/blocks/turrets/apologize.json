@@ -1,0 +1,101 @@
+{
+  "type": "ContinuousTurret",
+  "researchCostMultiplier": 0.3,
+  "squareSprite": false,
+  "outlineColor": "1c1c1c",
+  "size": 5,
+  "health": 1890,
+  "reload": 300,
+  "range": 550,
+  "maxAmmo": 30,
+  "recoil": 1.25,
+  "rotateSpeed": 0.95,
+  "drawer": {
+    "type": "drawTurret",
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-detail1",
+        "moveY": 2.5,
+        "moveX": 2,
+        "moveRot": -5,
+        "mirror": true,
+        "under": true,
+        "progress": "warmup"
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-detail2",
+        "moveY": -5,
+        "moveX": -3,
+        "moveRot": 8,
+        "mirror": true,
+        "under": false,
+        "progress": "warmup"
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-detail3",
+        "moveY": 10,
+        "moveX": -4,
+        "moveRot": 0,
+        "mirror": true,
+        "under": true,
+        "progress": "warmup"
+      }
+    ]
+  },
+  "shootSound": "laser",
+  "consumes": {
+    "power": 20,
+    "liquids": [
+      "argon/0.65"
+    ]
+  },
+  "shootType": {
+    "type": "PointLaserBulletType",
+    "damage": 150,
+    "drawSize": 4500,
+    "beamEffect": {
+      "type": "multiEffect",
+      "effects": [
+        {
+          "type": "ParticleEffect",
+          "particles": 10,
+          "length": 40,
+          "lifetime": 116,
+          "interp": "circleOut",
+          "colorFrom": "5b4280",
+          "colorTo": "5b4280",
+          "sizeFrom": 4,
+          "sizeTo": 0
+        },
+        {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 3,
+          "lifetime": 105,
+          "length": 75,
+          "cone": -360,
+          "lenFrom": 8,
+          "lenTo": 0,
+          "colorFrom": "8362b5",
+          "colorTo": "8362b5"
+        }
+      ]
+    },
+    "splashDamageRadius": 30,
+    "splashDamage": 10,
+    "color": "9a6dde"
+  },
+    "requirements": [
+      "dark-slate/225",
+      "blood-stone/75",
+      "protected-oxide/200",
+      "phantom-alloy/145",
+      "nixonium/60",
+      "palladium/120"
+    ],
+    "category": "turret",
+    "research": ""
+}

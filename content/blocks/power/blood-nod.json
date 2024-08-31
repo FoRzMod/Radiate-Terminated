@@ -1,0 +1,17 @@
+{
+    "type": "PowerNode",
+    "size": 1,
+    "health": 70,
+    "laserRange": 10,
+    "maxNodes": 10,
+    "hasPower": true,
+    "laserColor1": "ff5757",
+    "laserColor2": "ff8585",
+    "requirements": [
+     "titanium/1",
+     "palladium/2"
+    ],
+    "research": "",
+    "category": "power"  
+    }
+  

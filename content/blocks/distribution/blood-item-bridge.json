@@ -1,0 +1,16 @@
+{
+    "type": "ItemBridge",
+    "name": "Dark-slate Bridge Conveyor",
+    "description": "Just fast item bridge.",
+    "health": 150,
+    "requirements": [
+    "dark-slate/6",
+    "titanium/4"
+    ],
+    "range": 6,
+    "transportTime": 4.5,
+    "hasPower": false,
+    "category": "distribution",
+    "research": "blood-router"
+  }
+  

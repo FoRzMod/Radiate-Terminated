@@ -1,0 +1,59 @@
+{
+    "type": "GenericCrafter",
+       "researchCostMultiplier": 0.5,
+    "health": 190,
+    "size": 2,
+    "hasItems": false,
+    "craftTime": 48,
+    "craftEffect": "none",
+    "drawer": {
+    "type": "DrawMulti",
+          "drawers": [
+          {
+         "type": "DrawRegion",
+         "suffix": "-bottom"
+          },
+          {
+          "type": "DrawLiquidTile",
+          "drawLiquid": "argon",
+          "suffix": "-liquid"
+          },
+          {
+            "type": "DrawParticles",
+            "particles": 18,
+            "sizeFrom": 12,
+            "sizeTo": 6,
+            "length": 0,
+            "offset": 15,
+            "lifetime": 8,
+            "lightOpacity": 0,
+            "colorFrom": "cc3f3f",
+            "colorTo": "fc0d0d"
+          },
+          {	
+          "type": "DrawDefault"
+          },
+          {
+            "type": "DrawGlowRegion",
+            "suffix": "-heat",
+             "color": "ffd1d1"
+          }
+      ]
+      },
+    "hasPower": true,
+    "hasLiquids": true,
+    "updateEffect": "none",
+    "consumes": {
+      "power": 1.5
+    },
+    "requirements": [
+      "palladium/40",
+      "blood-stone/20",
+      "dark-slate/75",
+      "protected-oxide/35"
+    ],
+    "category": "crafting",
+    "research": "",
+    "outputLiquid": "argon/0.085"
+  }
+  

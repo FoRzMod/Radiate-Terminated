@@ -1,0 +1,15 @@
+{    
+    "type": "Wall",
+    "health": 4350,
+    "size": 2,
+    "deflect": true,
+    "chanceDeflect": 25,
+    "absorbLasers": true,
+    "flashHit": true,
+    "requirements": [
+     "palladium/24",
+     "carbon-stick/12"
+    ],
+    "category": "defense",
+    "research": ""
+}

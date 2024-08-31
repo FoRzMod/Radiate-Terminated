@@ -1,0 +1,20 @@
+{
+"type": "tether",
+"health": 200,
+"flying": true,
+"lowAltitude": false,
+"engineOffset": 4,
+"accel": 0.1,
+"drag": 0,
+"speed": 3.5,
+"armor": 0,
+"hitsize": 1,
+"itemCapacity": 35,
+"rotateSpeed": 4.5,
+"Controller": "CargoAI",
+"outlineColor": "2a2a2a",
+"allowedInPayloads": false,
+"logicControllable": false,
+"playerControllable": false,
+"isEnemy": false
+}

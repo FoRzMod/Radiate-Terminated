@@ -1,0 +1,27 @@
+{
+    "type": "UnitFactory",
+    "researchCostMultiplier": 0.3,
+    "size": 3,
+    "consumes": {
+    "power": 3.5,
+    "liquid": "cryofluid/0.05"
+    },
+    "plans": [
+    {
+        "unit": "secretary",
+            "requirements": [
+            "radiation-metal/60",
+            "dark-slate/95"
+           ],
+        "time": 600
+      }
+    ],
+        "requirements": [
+        "dark-slate/100",
+        "blood-stone/140",
+        "titanium/60"
+    ],
+    "category": "units",
+    "research": ""
+    }
+    

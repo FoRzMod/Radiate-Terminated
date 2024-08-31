@@ -1,0 +1,66 @@
+{
+    "type": "GenericCrafter",
+       "researchCostMultiplier": 0.5,
+    "health": 480,
+    "size": 3,
+    "hasItems": true,
+    "craftTime": 460,
+    "craftEffect": "none",
+    "drawer": {
+    "type": "DrawMulti",
+          "drawers": [
+          {
+         "type": "DrawRegion",
+         "suffix": "-bottom"
+          },
+          {	
+          "type": "DrawDefault"
+          },
+          {
+          "type": "DrawParticles",
+            "particles": 40,
+            "sizeFrom": 18,
+            "sizeTo": 12,
+            "length": 0,
+            "offset": 10,
+            "lifetime": 20,
+            "lightOpacity": 0,
+            "color": "ffd966"
+          },
+          {
+            "type": "DrawRegion",
+            "suffix": "-rotator",
+            "rotateSpeed": 10,
+            "rotation": 45
+          },
+          {
+            "type": "DrawBlurSpin",
+            "rotateSpeed": 10
+          }
+      ]
+      },
+    "hasPower": true,
+    "hasLiquids": true,
+    "updateEffect": "none",
+    "consumes": {
+    "power": 6,
+      "items": [
+        "carbon-stick/3",
+        "palladium/1"
+      ],
+      "liquids": [
+      "water/0.7"
+      ]
+    },
+    "requirements": [
+      "blood-stone/75",
+      "dark-slate/235",
+      "palladium/60",
+      "protected-oxide/120",
+      "carbon-stick/40"
+    ],
+    "category": "crafting",
+    "research": "",
+    "outputItem": "nixonium/1"
+}
+  

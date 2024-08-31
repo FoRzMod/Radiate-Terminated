@@ -1,0 +1,45 @@
+{
+    "name": "Dark slate molder",
+    "type": "GenericCrafter",
+    "description": "Creates dark slate from oil",
+    "health": 260,
+    "size": 2,
+    "hasItems": true,
+    "craftTime": 90,
+    "craftEffect": "none",
+    "drawer": {
+    "type": "DrawMulti",
+          "drawers": [
+          {	
+          "type": "DrawDefault"
+          },
+          {
+            "type": "DrawGlowRegion",
+            "suffix": "-glow",
+            "glowIntensity": 2.5,
+            "alpha": 1.0,
+            "color": "b8b8b8"
+          }
+      ]
+      },
+    "hasPower": true,
+    "hasLiquids": false,
+    "updateEffect": "none",
+    "consumes": {
+    "power": 0.75,
+      "items": [
+      "ds-stone/1"
+      ]
+    },
+    "requirements": [
+      "radiation-metal/20",
+      "blood-stone/5"
+    ],
+    "category": "crafting",
+    "research": "",
+    "outputItems": [
+      "dark-slate/2",
+      "scrap/1"
+    ]
+  }
+  

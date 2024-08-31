@@ -1,0 +1,23 @@
+{
+"type": "UnitCargoLoader",
+"size": 2,
+"health": 350,
+"itemCapacity": 50,
+"consumes": {
+  "power": 2,
+  "liquid": "argon/0.35"
+},
+"buildTime": 200,
+"polySides": 2,
+"polyRotateSpeed": 3,
+"polyStroke": 3,
+"unitType": "leader",
+"category": "distribution",
+"research": "",
+"requirements": [
+"phantom-alloy/30",
+"dark-slate/80",
+"blood-stone/40",
+"palladium/20"
+]
+}

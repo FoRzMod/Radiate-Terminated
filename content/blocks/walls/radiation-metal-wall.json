@@ -1,0 +1,11 @@
+{    
+    "type": "Wall",
+    "health": 200,
+    "size": 1,
+    "requirements": [
+     "radiation-metal/6",
+     "titanium/10"
+    ],
+    "category": "defense",
+    "research": ""
+}

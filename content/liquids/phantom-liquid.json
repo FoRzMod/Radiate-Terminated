@@ -1,0 +1,19 @@
+{
+    "name": "Phantom Liquid",
+    "description": "BETALIQUID",
+    "heatCapacity": 1,
+    "explosiveness": 0,
+    "temperature": 2,
+    "color": "41238e",
+    "viscosity": 0.1,
+    "flammability": 0,
+    "research": {
+      "requirements": [
+        {
+          "item": "copper",
+          "amount": 1
+        }
+      ]
+    }
+  }
+  

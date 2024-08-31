@@ -1,0 +1,10 @@
+{    
+    "type": "Wall",
+    "health": 450,
+    "size": 1,
+    "requirements": [
+     "dark-slate/6"
+    ],
+    "category": "defense",
+    "research": ""
+}

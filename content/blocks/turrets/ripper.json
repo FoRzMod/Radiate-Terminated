@@ -1,0 +1,76 @@
+{
+    "type": "ItemTurret",
+    "researchCostMultiplier": 0.3,
+    "squareSprite": false,
+    "outlineColor": "1c1c1c",
+    "size": 2,
+    "health": 340,
+    "reload": 120,
+    "range": 200,
+    "maxAmmo": 15,
+    "recoil": 3,
+    "rotateSpeed": 3,
+    "shootSound": "bang",
+    "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "amber-",
+      "parts": [
+        {
+          "type": "RegionPart",
+          "suffix": "-detail",
+          "moveY": -4,
+          "moveX": 8,
+          "moveRot": -10,
+          "mirror": true,
+          "progress": "recoil"
+        }
+      ]
+    },
+    "ammoTypes": {
+        "dark-slate": {
+        "type": "ArtilleryBulletType",
+        "shootEffect": {
+        "type": "ParticleEffect",
+        "particles": 8,
+        "length": 40,
+        "lifetime": 46,
+       "interp": "pow3Out",
+       "sizeInterp": "pow5In",
+        "cone": 20,
+        "colorFrom": "A9D8FFFF",
+        "colorTo": "66B1FFFF",
+        "sizeFrom": 5,
+        "sizeTo": 0
+        },
+        "shrinkY": 0,
+        "shrinkX": 0,
+        "speed": 5,
+        "lifetime": 38,
+        "collides": false,
+        "splashDamage": 42,
+        "splashDamageRadius": 55,
+        "trailColor": "66B1FFFF",
+        "lightColor": "A9D8FFFF",
+        "trailParam": 5,
+        "trailLength": 6,
+        "trailWidth": 5,
+        "trailEffect": "none",
+        "status": "freezing",
+        "statusDuration": 30,
+        "height": 20,
+        "width": 15,
+        "hitEffect": {
+         "type": "multiEffect"
+        },
+        "frontColor": "A9D8FFFF",
+        "backColor": "66B1FFFF"
+        }
+    },
+    "requirements": [
+        "dark-slate/12",
+        "blood-stone/20",
+        "protected-oxide/14"
+    ],
+    "category": "turret",
+    "research": ""
+}

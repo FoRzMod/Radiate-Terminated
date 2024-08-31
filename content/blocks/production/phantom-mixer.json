@@ -1,0 +1,55 @@
+{
+    "name": "Phantom mixer",
+    "type": "GenericCrafter",
+       "researchCostMultiplier": 0.5,
+    "description": "Reunites Cryogen Liquid and Bloodstone and turns them into Phantom Liquid",
+    "health": 250,
+    "size": 3,
+    "hasItems": true,
+    "craftTime": 18,
+    "craftEffect": "none",
+    "drawer": {
+    "type": "DrawMulti",
+          "drawers": [
+          {
+         "type": "DrawRegion",
+         "suffix": "-bottom"
+          },
+          {
+          "type": "DrawLiquidTile",
+          "drawLiquid": "phantom-liquid",
+          "suffix": "-liquid"
+          },
+          {	
+          "type": "DrawDefault"
+          },
+          {
+            "type": "DrawGlowRegion",
+            "suffix": "-glow",
+             "color": "ffb357"
+          }
+      ]
+      },
+    "hasPower": true,
+    "hasLiquids": true,
+    "updateEffect": "none",
+    "consumes": {
+    "power": 2,
+      "items": [
+        "blood-stone/2"
+      ],
+      "liquids": [
+      "cryofluid/0.3"
+      ]
+    },
+    "requirements": [
+      "titanium/20",
+      "radiation-metal/35",
+      "blood-stone/10",
+      "dark-slate/50"
+    ],
+    "category": "crafting",
+    "research": "",
+    "outputLiquid": "phantom-liquid/0.3"
+  }
+  

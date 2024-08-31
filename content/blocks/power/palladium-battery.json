@@ -1,0 +1,22 @@
+{
+	"type": "battery",
+	"size": 2,
+	"absorbLasers": true,
+	"fullLightColor": "ffcc12",
+	"emptyLightColor": "565666FF",
+	"hasPower": true,
+	"outputsPower": true,
+	"consumesPower": true,
+	"hasItems": false,
+	"canOverdrive": false,
+	"health": 150,
+	"consumes": {
+		"powerBuffered": 2500
+	},
+	"category": "power",
+	"research": "",
+	"requirements": [
+        "dark-slate/30",
+        "palladium/10"	
+	]
+}

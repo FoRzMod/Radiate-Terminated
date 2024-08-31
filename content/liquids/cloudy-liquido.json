@@ -1,0 +1,13 @@
+{
+    "name": "Cloudy Liquid",
+    "description": "???",
+    "gas": false,
+    "heatCapacity": 0,
+    "explosiveness": 0,
+    "temperature": -1,
+    "color": "20a167",
+    "viscosity": 0.03,
+    "flammability": 0,
+    "research": ""
+  }
+  

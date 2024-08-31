@@ -1,0 +1,15 @@
+{
+    "name": "Dark-slate Junction",
+    "description": "Just fast junction",
+    "type": "Junction",
+    "speed": 14,
+    "health": 65,
+    "size": 1,
+    "requirements": [
+    "dark-slate/2",
+    "titanium/4"
+    ],
+    "category": "distribution",
+    "research": "dark-slate-conveyor"
+  }
+  

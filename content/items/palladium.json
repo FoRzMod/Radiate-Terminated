@@ -1,0 +1,19 @@
+{
+    "name": "Palladium",
+    "description": "",
+    "details": "BETATEST",
+    "cost": 2,
+    "color": "ffcb0d", 
+    "hardness": 3,
+    "flammability": 0,
+    "explosiveness": 0,
+    "charge": 3.5,
+    "research": {
+      "requirements": [
+        {
+          "item": "titanium",
+          "amount": 1
+        }
+      ]
+    }
+  }
